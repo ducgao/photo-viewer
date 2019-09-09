@@ -205,8 +205,7 @@
                           atIndex:(NSInteger)photoIndex
                   totalPhotoCount:(nullable NSNumber*)totalPhotoCount
 {
-    return [NSString stringWithFormat:@"%lu / %lu", (unsigned long)photoIndex + 1,
-                     (unsigned long)totalPhotoCount.integerValue];
+    return @"";
 }
 
 /**
